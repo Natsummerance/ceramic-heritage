@@ -35,7 +35,7 @@ export function HeroSection({ title, subtitle, backgroundImage, height = "h-scre
         transition={{ duration: 0.8, delay: 0.2 }}
       >
         <motion.h1
-          className="text-6xl md:text-8xl lg:text-9xl font-bold mb-4 mao-calligraphy"
+          className="text-6xl md:text-8xl lg:text-10xl font-bold mb-4 mao-calligraphy"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.4, duration: 0.8, type: "spring" }}

@@ -20,7 +20,7 @@ const ceramics = [
     story:
       "为庆祝新中国成立而设计的国礼瓷器,象征胜利与荣耀。胜利杯的设计融合了传统与现代元素,杯身绘有象征胜利的图案,釉色鲜艳而不失庄重。这件作品不仅是艺术品,更是时代精神的体现,见证了新中国的诞生与发展。",
     technique: "釉下五彩手绘工艺,采用传统青花与红彩相结合。",
-    modelUrl: "/models/victory-cup.obj",
+    modelUrl: "/models/victory-cup.glb",
   },
   {
     id: 2,
@@ -32,7 +32,12 @@ const ceramics = [
     story:
       "融合中国传统文人画意象的日用瓷,体现高雅品味。四季花碗以春夏秋冬四季花卉为装饰主题,每只碗代表一个季节,展现了中国传统文化的精髓。这套碗不仅实用,更是将艺术融入日常生活的典范。",
     technique: "手工绘制四季花卉纹样,釉下五彩烧制。",
-    modelUrl: "/models/four-seasons-bowl.obj",
+    modelUrl: [
+      "/models/four-seasons-bowl-spring.glb",
+      "/models/four-seasons-bowl-summer.glb",
+      "/models/four-seasons-bowl-autumn.glb",
+      "/models/four-seasons-bowl-winter.glb",
+    ],
   },
   {
     id: 3,
@@ -44,7 +49,7 @@ const ceramics = [
     story:
       "专为毛主席设计的日用瓷器,体现了醴陵陶瓷工匠的细致入微。假牙盒虽小,但制作工艺精湛,釉色温润,既实用又美观。这件作品展现了醴陵陶瓷工匠对细节的极致追求和对领袖的深厚感情。",
     technique: "采用薄胎瓷工艺,釉下彩装饰。",
-    modelUrl: "/models/denture-box.obj",
+    modelUrl: "/models/denture-box.glb",
   },
   {
     id: 4,
@@ -56,7 +61,7 @@ const ceramics = [
     story:
       "以鱼为主题的装饰瓷盘,寓意年年有余。带盖鱼盘设计独特,盖子与盘身完美契合,盘中绘有栩栩如生的鱼纹,象征着富足和吉祥。这件作品不仅是餐具,更是艺术品,体现了中国传统文化中的美好寓意。",
     technique: "大面积釉下五彩手绘,烧制难度高。",
-    modelUrl: "/models/fish-plate.obj",
+    modelUrl: null,
   },
   {
     id: 5,
@@ -68,7 +73,7 @@ const ceramics = [
     story:
       "为毛主席纪念堂特制的大型装饰瓷器,工艺精湛。大花缸以蓝色芙蓉为主题,芙蓉是湖南的省花,象征着对毛主席的深切怀念。这件作品体量巨大,制作难度极高,代表了醴陵陶瓷技艺的最高水平,是国礼瓷中的精品。",
     technique: "多层釉下五彩手绘,大型器物烧制技术。",
-    modelUrl: "/models/lotus-vase.obj",
+    modelUrl: "/models/lotus-vase.glb",
   },
 ]
 
@@ -95,6 +100,9 @@ export default function StoryPage() {
       setViewMode("image")
     }
   }
+
+  const currentCeramic = selectedCeramic !== null ? ceramics[selectedCeramic] : null
+  const hasModel = currentCeramic?.modelUrl !== null
 
   return (
     <main className="w-full">
@@ -190,7 +198,7 @@ export default function StoryPage() {
                     className="w-full h-full object-cover"
                   />
                 ) : (
-                  <ModelViewer modelUrl={ceramics[selectedCeramic].modelUrl} />
+                  <ModelViewer modelUrl={ceramics[selectedCeramic].modelUrl!} />
                 )}
               </div>
               <div className="flex gap-2">
@@ -202,14 +210,16 @@ export default function StoryPage() {
                 >
                   图片
                 </button>
-                <button
-                  onClick={() => setViewMode("model")}
-                  className={`flex-1 py-2 px-4 rounded-lg font-medium transition-colors ${
-                    viewMode === "model" ? "bg-[#9B1D2B] text-white" : "bg-[#F5F2ED] text-gray-700 hover:bg-[#E8E4DE]"
-                  }`}
-                >
-                  3D模型
-                </button>
+                {hasModel && (
+                  <button
+                    onClick={() => setViewMode("model")}
+                    className={`flex-1 py-2 px-4 rounded-lg font-medium transition-colors ${
+                      viewMode === "model" ? "bg-[#9B1D2B] text-white" : "bg-[#F5F2ED] text-gray-700 hover:bg-[#E8E4DE]"
+                    }`}
+                  >
+                    3D模型
+                  </button>
+                )}
               </div>
             </div>
             <div className="md:w-1/2 p-8">

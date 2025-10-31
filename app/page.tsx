@@ -1,5 +1,6 @@
 "use client"
 
+import { useMemo } from "react"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { HeroSection } from "@/components/hero-section"
@@ -8,6 +9,15 @@ import Link from "next/link"
 import { Flame, Sparkles } from "lucide-react"
 
 export default function Home() {
+  const sparkles = useMemo(() => 
+    Array.from({ length: 6 }, () => ({
+      left: `${Math.random() * 100}%`,
+      top: `${Math.random() * 100}%`,
+      duration: 3 + Math.random() * 2,
+      delay: Math.random() * 2,
+    })),
+    []
+  )
   return (
     <main className="w-full">
       <Navigation />

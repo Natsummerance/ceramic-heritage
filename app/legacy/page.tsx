@@ -84,7 +84,7 @@ export default function LegacyPage() {
 
         <div className="max-w-4xl mx-auto relative">
           <motion.h2
-            className="text-4xl font-bold mb-16 mao-red-text text-center mao-calligraphy"
+            className="text-4xl font-bold mb-16 mao-red-text text-center stkaiti-font"
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -147,7 +147,7 @@ export default function LegacyPage() {
             <div className="md:w-2/5 p-8 bg-[#9B1D2B] text-white flex items-center justify-center">
               <div className="text-center">
                 <div className="text-6xl mb-6">{spirits[selectedSpirit].icon}</div>
-                <h2 className="text-2xl font-bold mb-6 mao-calligraphy">{spirits[selectedSpirit].title}</h2>
+                <h2 className="text-2xl font-bold mb-6 stkaiti-font">{spirits[selectedSpirit].title}</h2>
                 <p className="text-xl italic leading-relaxed">"{spirits[selectedSpirit].quote}"</p>
                 <p className="text-sm mt-4 opacity-90">— 毛泽东</p>
               </div>

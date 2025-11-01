@@ -179,6 +179,13 @@
   /* Adding Mao-style calligraphy font styling */
   .mao-calligraphy {
     font-family: var(--font-mao), "STKaiti", "KaiTi", "楷体", serif;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+  }
+
+  /* STKaiti font styling for non-mao text */
+  .stkaiti-font {
+    font-family: "STKaiti", "KaiTi", "楷体", serif;
     font-weight: bold;
     letter-spacing: 0.05em;
   }

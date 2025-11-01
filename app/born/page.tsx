@@ -49,7 +49,7 @@ const timelineEvents = [
     title: "主席肯定",
     description: "毛主席称赞杨第甫的方案,成立醴陵瓷业公司统一管理醴陵瓷业",
     details:
-      "毛主席对杨第甫提出的醴陵瓷业发展方案给予高度评价和肯定。随后,醴陵瓷业公司正式成立,对醴陵地区的陶瓷产业进行统一规划和管理,标志着醴陵陶瓷进入了有组织、有计划的发展阶段。",
+      "1956年5月，毛泽东到南方考察，湖南省汇报团赶到广州报告工作。期间汇报到湖南工业生产情况时，毛泽东主动问到醴陵瓷业的情况。原来，新中国成立前，毛泽东曾多次到醴陵，他对醴陵的山山水水、民情风俗和物产都很熟悉。担任省工业厅副厅长的杨弟甫汇报了醴陵瓷业现状：1955成立了陶瓷研究所，又从农村找回了原来从事釉下彩的老艺人和几个徒弟，中断了20余年的釉下彩得到恢复。他同时汇报了当时存在的困难：国营、私营、手工业社、个体户几种所有制并存，矛盾很多。并请示希望办一个瓷器工业公司，统管醴陵瓷业。毛泽东当即表示，可以试办！湖南省委领导从广州汇报回来后，立即根据指示向国务院撰写了成立瓷器工业公司的专题报告。于是，“湖南省工业厅醴陵瓷器工业公司”（后改名为醴陵瓷器公司）于1956年7月1日正式成立。",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E4%B8%BB%E5%B8%AD%E8%82%AF%E5%AE%9A-VmOewtgDBDimbrnh79xMqMZGLZDp3h.jpg",
   },
@@ -103,7 +103,7 @@ const timelineEvents = [
     title: "胜利杯",
     description: "为毛主席制作胜利杯",
     details:
-      "醴陵陶瓷艺术家为毛主席精心设计制作了胜利杯。这件作品融合了传统釉下五彩技艺与现代设计理念,象征着新中国的胜利与繁荣,成为醴陵陶瓷的代表作之一。",
+      "1958年4月醴陵瓷器公司负责人陪同省委一位同志来到陶瓷研究所，他们带来一个桶形茶杯，无花无盖，质量粗糙，灰不溜秋的。要求照此改制一件，说是中央一位领导同志要的，时间越快越好。1958年6月，陶瓷研究所所长李维善接到了醴陵瓷器公司负责人王林卿从省会长沙打来的电话：“省委领导告诉我，此前试制的杯子是专门为主席做的，毛主席对最后送去的样品很满意。省委要求赶制40件，其中花杯20件（蝴蝶花），白的20件，7月5日前送省委。”听到这个特大好消息，李维善激动不已。他这才知道研究所工程师们2个多月的辛勤劳动竟然是承担了这么荣耀的任务！",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/58%E5%B9%B4%E8%83%9C%E5%88%A9%E6%9D%AF-g1FcqLQ1CAoiBLwTs7wsaiaEkIjJAx.png",
   },
@@ -184,7 +184,7 @@ const timelineEvents = [
     title: "四季花碗",
     description: "为毛主席制作釉下彩双面有彩花薄胎碗毛瓷四季花碗",
     details:
-      "醴陵艺术家为毛主席创作了技术难度极高的釉下彩双面有彩花薄胎碗,命名为毛瓷四季花碗。这套碗以春夏秋冬四季花卉为主题,内外双面绘彩,胎体薄如蝉翼,是醴陵陶瓷技艺的巅峰之作。",
+      "1974年秋，毛泽东同志最后一次回湖南，在省委九所住了114天。那时，伟人年事已高，手有些抖。时任省委书记的张平化为了庆祝他的生日，提议烧制一批轻巧的瓷器，作为家乡人民对他的祝福。很快，毛泽东的生活“管家”原中央警卫局副科长吴连登和原湖南省委接待处处长肖根如持中央办公厅的介绍信，来到醴陵群力瓷厂和陶瓷研究所，下达了制瓷任务，但当时并没有说为谁制作，只是要求：这批釉下五彩，内外双面都要有花；重量轻而结实耐用；保温效果好；无铅毒，不含镉，确保使用者健康；永不褪色。\n“当我们拿出醴陵烧制的这批瓷器时，毛主席很高兴，饶有兴趣地拿了两个碗看了又看，并轻轻地相互碰了一下，声音很清脆。特别是瓷器上的图案，主席很喜欢，连声称赞‘家乡的瓷器真好啊！’”吴连登还回忆，用上醴陵瓷器后，直到他老人家临终前吃的最后一顿饭，使用的都是醴陵的餐具。",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E5%9B%9B%E5%AD%A3%E8%8A%B1%E7%A2%97-pKd8wwptBd2C2y91rAS8K430tb3YrN.jpg",
   },
@@ -193,7 +193,7 @@ const timelineEvents = [
     title: "纪念堂花缸",
     description: "为毛主席纪念堂创烧《釉下彩蓝芙蓉大花缸》",
     details:
-      "为毛主席纪念堂特别创作烧制了《釉下彩蓝芙蓉大花缸》。这件大型陶瓷作品以蓝色芙蓉为主题,寓意高洁与永恒,工艺精湛,气势恢宏,成为纪念堂的重要陈设,永久纪念伟大领袖。",
+      "48年前的今天，一代伟人毛泽东与世长辞。在全民怀念他的日子里，瓷都醴陵人的思念因为陶瓷而具象化了。陈设在毛主席纪念堂的釉下彩蓝芙蓉纹大花缸，就是醴陵群力瓷厂1977年为纪念堂特别烧制的。它寄托着醴陵儿女对新中国缔造者的敬仰之情和无尽思念。\n毛主席纪念堂工程指挥部要求纪念瓷器要庄严肃穆、美观大方，做到“七个一致，八个不准”。即大小一致、高矮一致、重量一致、颜色一致、线条一致、花型部位一致、白度一致；不准有变形、不准有黑点、不准现毛孔、不准有接缝、不准有釉子、不准有釉面不光、不准有灰砂、不准有擦伤。为此，成型、彩绘、烧制等工艺都需要攻坚克难。\n在醴陵，原来较高的花缸，坯体大都是由上下两部分接上去的。但指挥部要求花缸不能有接口，因此，必须一次拉坯成型。面对挑战，群力瓷厂的陈月发、周谷良等人采取了接力拉坯的办法，即拉坯师傅一个人在那里拉，同时，另外两个人抓住他的手臂一块使劲，这样才能拉起来。\n蓝芙蓉大花缸的彩绘，要分多种颜色水1000多笔。为加快工作进度又确保质量。唐汉初老人的弟子张震创造了双人配合分水新工艺。经过工厂彩绘人员认真操作，精心绘制，创造了大花缸内外2平方米的面积无斑点、无掉砂、无压釉、无色脏、无变形的最佳效果。",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E7%BA%AA%E5%BF%B5%E5%A0%82%E5%A4%A7%E8%8A%B1%E7%BC%B8-VnPmW24MRw2OloX4VS2DRvmKUn8mIY.png",
   },
@@ -241,7 +241,7 @@ export default function BornPage() {
       >
         <div className="max-w-6xl mx-auto">
           <motion.h2
-            className="text-3xl font-bold mb-12 mao-red-text mao-calligraphy"
+            className="text-3xl font-bold mb-12 mao-red-text stkaiti-font"
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -300,7 +300,7 @@ export default function BornPage() {
               <p className="text-sm font-bold text-[#9B1D2B] mb-2">{timelineEvents[selectedEvent].year}</p>
               <h2 className="text-3xl font-bold mb-4 mao-red-text">{timelineEvents[selectedEvent].title}</h2>
               <p className="text-gray-600 mb-4 font-medium">{timelineEvents[selectedEvent].description}</p>
-              <p className="text-gray-700 leading-relaxed">{timelineEvents[selectedEvent].details}</p>
+              <p className="text-gray-700 leading-relaxed whitespace-pre-line">{timelineEvents[selectedEvent].details}</p>
             </div>
           </div>
         )}

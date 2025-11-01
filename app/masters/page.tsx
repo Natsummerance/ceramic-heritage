@@ -161,7 +161,7 @@ export default function MastersPage() {
       <section className="py-20 px-8 bg-gradient-to-b from-white to-[#F5F2ED] overflow-x-hidden">
         <div className="max-w-7xl mx-auto">
           <motion.h2
-            className="text-4xl font-bold mb-16 mao-red-text text-center mao-calligraphy"
+            className="text-4xl font-bold mb-16 mao-red-text text-center stkaiti-font"
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -233,7 +233,7 @@ export default function MastersPage() {
                             className="w-full h-full object-cover"
                           />
                         </div>
-                        <h3 className="text-xl font-bold mao-red-text text-center mao-calligraphy">{master.name}</h3>
+                        <h3 className="text-xl font-bold mao-red-text text-center stkaiti-font">{master.name}</h3>
                         <p className="text-sm text-gray-600 text-center mt-2">{master.years}</p>
                         <p className="text-sm text-[#D4AF37] text-center mt-1 font-medium">{master.specialty}</p>
                       </div>
@@ -269,7 +269,7 @@ export default function MastersPage() {
                 alt={masters[selectedMaster].name}
                 className="w-full h-auto rounded-lg mb-4"
               />
-              <h2 className="text-2xl font-bold mao-red-text text-center mao-calligraphy">
+              <h2 className="text-2xl font-bold mao-red-text text-center stkaiti-font">
                 {masters[selectedMaster].name}
               </h2>
               <p className="text-center text-gray-600 mt-2">{masters[selectedMaster].years}</p>

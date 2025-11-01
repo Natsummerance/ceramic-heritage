@@ -61,7 +61,7 @@ export default function Home() {
               >
                 <Flame className="w-8 h-8 text-[#D4AF37]" />
               </motion.div>
-              <h2 className="text-4xl md:text-5xl font-bold text-white mao-calligraphy">醴陵红窑</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-white stkaiti-font">醴陵红窑</h2>
               <motion.div
                 animate={{ rotate: [0, -10, 10, 0] }}
                 transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, repeatDelay: 2 }}
@@ -240,7 +240,7 @@ export default function Home() {
                     <div className="relative z-10 h-full flex flex-col justify-between">
                       <div>
                         <motion.h3
-                          className="font-bold text-2xl md:text-3xl text-white mb-3 mao-calligraphy"
+                          className="font-bold text-2xl md:text-3xl text-white mb-3 stkaiti-font"
                           whileHover={{ scale: 1.05 }}
                         >
                           {item.title}
@@ -282,34 +282,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 px-8 bg-[#9B1D2B]">
-        <motion.div
-          className="max-w-4xl mx-auto text-center"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
-          <motion.p
-            className="text-2xl md:text-3xl text-white font-bold mao-calligraphy mb-4"
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-          >
-            瓷火不熄，红韵长存
-          </motion.p>
-          <motion.p
-            className="text-white/80 text-lg"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.3, duration: 0.8 }}
-            viewport={{ once: true }}
-          >
-            传承醴陵陶瓷文化，弘扬时代精神
-          </motion.p>
-        </motion.div>
-      </section>
 
       <Footer />
     </main>

@@ -178,7 +178,7 @@
 
   /* Adding Mao-style calligraphy font styling */
   .mao-calligraphy {
-    font-family: "STKaiti", "KaiTi", "楷体", serif;
+    font-family: var(--font-mao), "STKaiti", "KaiTi", "楷体", serif;
     font-weight: bold;
     letter-spacing: 0.05em;
   }

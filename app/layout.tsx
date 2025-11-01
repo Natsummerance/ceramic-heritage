@@ -9,7 +9,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 const maoFont = localFont({
-  src: "./public/fonts/maozedong-1.ttf",
+  src: "../public/fonts/maozedong-1.ttf",
   variable: "--font-mao",
   display: "swap",
 })

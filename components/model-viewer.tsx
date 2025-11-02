@@ -44,7 +44,6 @@ export function ModelViewer({ modelUrl, className = "" }: ModelViewerProps) {
       <Canvas camera={{ position: [0, 0, 5], fov: 50 }} className="w-full h-full" gl={{ antialias: true, alpha: true }}>
         <Suspense fallback={<Loader />}>
           <Environment
-            background        // 可选：把 hdr 当背景
             path="/hdr/"      // 指向 public/hdr/
             files="studio_small_03_1k.hdr"
           />

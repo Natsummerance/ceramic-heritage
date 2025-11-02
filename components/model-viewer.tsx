@@ -43,7 +43,11 @@ export function ModelViewer({ modelUrl, className = "" }: ModelViewerProps) {
     <div className={`w-full h-full relative ${className}`}>
       <Canvas camera={{ position: [0, 0, 5], fov: 50 }} className="w-full h-full" gl={{ antialias: true, alpha: true }}>
         <Suspense fallback={<Loader />}>
-          <Environment preset="studio" />
+          <Environment
+            background        // 可选：把 hdr 当背景
+            path="/hdr/"      // 指向 public/hdr/
+            files="studio_small_03_1k.hdr"
+          />
           <hemisphereLight intensity={0.6} groundColor="#444444" color="#ffffff" />
           <ambientLight intensity={1} />
           <directionalLight position={[10, 10, 5]} intensity={1.2} castShadow />
